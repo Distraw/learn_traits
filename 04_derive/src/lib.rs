@@ -1,6 +1,3 @@
-// TODO: A (derivable) trait implementation is missing for this exercise to compile successfully.
-//   Fix it!
-//
 // # `Debug` primer
 //
 // `Debug` returns a representation of a Rust type that's suitable for debugging (hence the name).
