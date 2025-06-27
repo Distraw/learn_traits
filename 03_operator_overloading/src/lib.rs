@@ -1,14 +1,11 @@
 use std::cmp::PartialEq;
 
+#[derive(PartialEq)]
 struct Ticket {
     title: String,
     description: String,
     status: String,
 }
-
-// TODO: Implement the `PartialEq` trait for `Ticket`.
-
-impl PartialEq for Ticket {}
 
 #[cfg(test)]
 mod tests {
